@@ -23,7 +23,7 @@ public class SpringCloudConfig {
                         .and()
                         .path("/Produits")
                         .filters(f -> f.circuitBreaker(c->c.setName("codedTribeCB").setFallbackUri("/defaultFallback")))
-                        .uri("lb://MICROSERVICE-PRODUITS/"))
+                        .uri("lb://microservice-produits/"))
                 .build();
     }
 

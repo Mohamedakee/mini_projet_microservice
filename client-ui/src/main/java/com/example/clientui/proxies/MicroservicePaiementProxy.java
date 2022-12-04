@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @LoadBalancerClient(name = "microservice-paiement")
 public interface MicroservicePaiementProxy {
 
-    @PostMapping(value = "/MICROSERVICE-PAIEMENT\t/paiement")
+    @PostMapping(value = "/paiement")
     ResponseEntity<PaiementBean> payerUneCommande(@RequestBody PaiementBean paiement);
 
 }

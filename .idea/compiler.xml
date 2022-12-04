@@ -22,10 +22,10 @@
       <module name="clientui" target="1.8" />
       <module name="clientui (1)" target="1.8" />
       <module name="clientui (2)" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="eureka-server" target="1.8" />
+      <module name="config-server" target="11" />
+      <module name="eureka-server" target="11" />
       <module name="eureka-server (1)" target="1.8" />
-      <module name="gateway-server" target="1.8" />
+      <module name="gateway-server" target="11" />
       <module name="mcommandes" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />

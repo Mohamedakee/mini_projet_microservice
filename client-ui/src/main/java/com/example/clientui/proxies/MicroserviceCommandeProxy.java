@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 @LoadBalancerClient(name = "microservice-commandes")
 public interface MicroserviceCommandeProxy {
 
-    @PostMapping(value = "/MICROSERVICE-COMMANDES/commandes")
+    @PostMapping(value = "/commandes")
     CommandeBean ajouterCommande(@RequestBody CommandeBean commande);
 }

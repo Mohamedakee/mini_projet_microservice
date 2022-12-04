@@ -12,10 +12,10 @@ import java.util.List;
 @LoadBalancerClient(name = "microservice-produits")
 public interface MicroserviceProduitsProxy {
 
-    @GetMapping(value = "/MICROSERVICE-PRODUITS/Produits")
+    @GetMapping(value = "/Produits")
     List<ProductBean> listeDesProduits();
 
 
-    @GetMapping( value = "/MICROSERVICE-PRODUITS/Produits/{id}")
+    @GetMapping( value = "/Produits/{id}")
     ProductBean recupererUnProduit(@PathVariable("id") int id);
 }
